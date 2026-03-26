@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CMT Transportation LLC — Premium non-emergency medical transport. Wheelchair, senior, and long-distance transportation with guaranteed safety and comfort." />
+  <meta name="keywords" content="medical transport, wheelchair transport, senior transport, NEMT, non-emergency transport, CMT Transportation" />
+  <meta property="og:title" content="CMT Transportation, LLC | Premium Medical Transport" />
+  <meta property="og:description" content="Safe, reliable, and personable non-emergency medical transportation services." />
+  <title>CMT Transportation, LLC | Premium Medical Transport</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- Custom -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalOrganization",
+    "name": "CMT Transportation, LLC",
+    "description": "Premium non-emergency medical transportation services",
+    "telephone": "+1-800-CMT-RIDE",
+    "areaServed": "United States"
+  }
+  </script>
+</head>
+<body>
+
+<!-- Skip Navigation (Accessibility) -->
+<a href="#services" class="skip-link">Skip to main content</a>
+
+<!-- ══════════════════════════════════════════════════════════
+     PRE-LOADER
+══════════════════════════════════════════════════════════ -->
+<div id="preloader" role="alert" aria-label="Page loading">
+  <div class="preloader-icon">
+    <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="36" cy="36" r="32" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="6 4" />
+      <circle cx="36" cy="36" r="24" stroke="rgba(212,175,55,0.35)" stroke-width="1" />
+      <!-- Van outline -->
+      <rect x="14" y="28" width="38" height="20" rx="3" fill="#D4AF37" opacity="0.9"/>
+      <rect x="14" y="32" width="18" height="16" rx="2" fill="#002147"/>
+      <rect x="33" y="28" width="19" height="16" rx="2" fill="#002147"/>
+      <circle cx="22" cy="50" r="4" fill="#D4AF37"/>
+      <circle cx="46" cy="50" r="4" fill="#D4AF37"/>
+      <rect x="16" y="34" width="14" height="8" rx="1" fill="rgba(255,255,255,0.25)"/>
+      <path d="M36 22 L40 28 H32 Z" fill="#D4AF37" opacity="0.7"/>
+    </svg>
+  </div>
+  <div class="preloader-logo">CMT<span>.</span></div>
+  <div style="font-family:'Montserrat',sans-serif;font-size:0.68rem;letter-spacing:4px;color:rgba(255,255,255,0.4);text-transform:uppercase;margin-top:2px;">Transportation, LLC</div>
+  <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════════════════════ -->
+<nav id="mainNav" class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="#hero" class="navbar-brand" aria-label="CMT Transportation Home">
+      CMT<span class="brand-dot">.</span>
+      <span class="brand-badge">LLC</span>
+    </a>
+
+    <button class="navbar-toggler" id="navToggler" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navCollapse">
+      <div class="hamburger-icon" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+    </button>
+
+    <div class="navbar-collapse" id="navCollapse">
+      <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close menu">&#x2715;</button>
+      <ul class="navbar-nav ms-auto align-items-center gap-1">
+        <li class="nav-item"><a href="#services"    class="nav-link" aria-label="Services">Services</a></li>
+        <li class="nav-item"><a href="#about"       class="nav-link" aria-label="About us">About</a></li>
+        <li class="nav-item"><a href="#testimonials" class="nav-link" aria-label="Testimonials">Reviews</a></li>
+        <li class="nav-item"><a href="#coverage"    class="nav-link" aria-label="Coverage area">Coverage</a></li>
+        <li class="nav-item"><a href="#contact"     class="nav-link" aria-label="Contact">Contact</a></li>
+        <li class="nav-item ms-2">
+          <button class="nav-link nav-cta-btn" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book a ride">
+            ✦ Book a Ride
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════════════════════
+     HERO SECTION
+══════════════════════════════════════════════════════════ -->
+<section id="hero" aria-label="Hero — CMT Transportation">
+  <div class="hero-parallax-bg" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="container hero-content">
+    <div class="row align-items-center g-5 min-vh-100 py-5">
+
+      <!-- Left: Copy -->
+      <div class="col-lg-6">
+        <div class="hero-eyebrow" role="text">
+          ✦ Non-Emergency Medical Transport
+        </div>
+
+        <h1 class="hero-title">
+          Your Journey,<br>
+          <span class="highlight">Our Promise</span>
+        </h1>
+
+        <p class="hero-typed" id="heroTypedWrap" aria-live="polite">
+          <span id="typedText"></span><span class="typed-cursor" aria-hidden="true">|</span>
+        </p>
+
+        <div class="hero-stats" role="list">
+          <div class="hero-stat" role="listitem">
+            <div class="stat-num" data-count="5000" data-suffix="+" aria-label="Over 5000 rides completed">5000+</div>
+            <div class="stat-label">Rides Completed</div>
+          </div>
+          <div class="hero-stat" role="listitem">
+            <div class="stat-num" data-count="4.9" data-suffix="★" aria-label="4.9 star rating">4.9★</div>
+            <div class="stat-label">Average Rating</div>
+          </div>
+          <div class="hero-stat" role="listitem">
+            <div class="stat-num" data-count="100" data-suffix="%" aria-label="100% licensed and insured">100%</div>
+            <div class="stat-label">Licensed & Insured</div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn-primary-cmt" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book a ride now">
+            <span class="btn-icon">🚐</span> Book Your Ride
+          </button>
+          <a href="tel:+18005268433" class="btn-outline-cmt" aria-label="Call CMT Transportation">
+            <i class="fas fa-phone-alt" aria-hidden="true"></i> Call Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Image -->
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="hero-image-card" role="img" aria-label="CMT Transportation premium fleet vehicle">
+          <img src="hero_transport.png" alt="CMT Transportation premium fleet vehicle on highway" loading="eager" />
+          <div class="hero-image-badge" aria-label="Available 24/7, 365 days a year">
+            <div class="badge-icon" aria-hidden="true">🛡️</div>
+            <div class="badge-text">
+              <div class="b-title">24/7 Availability</div>
+              <div class="b-sub">365 Days a Year</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     TRUST BAR
+══════════════════════════════════════════════════════════ -->
+<div id="trustBar" role="complementary" aria-label="Trust and credentials">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-6 col-md-3">
+        <div class="trust-item justify-content-center">
+          <span class="trust-icon" aria-hidden="true">🏥</span>
+          <div><div class="trust-num">HIPAA</div>Compliant</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="trust-item justify-content-center">
+          <span class="trust-icon" aria-hidden="true">⭐</span>
+          <div><div class="trust-num">5-Star</div>Rated Service</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="trust-item justify-content-center">
+          <span class="trust-icon" aria-hidden="true">🔒</span>
+          <div><div class="trust-num">Fully</div>Licensed & Insured</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="trust-item justify-content-center">
+          <span class="trust-icon" aria-hidden="true">🕐</span>
+          <div><div class="trust-num">24/7</div>Emergency Line</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SERVICES SECTION
+══════════════════════════════════════════════════════════ -->
+<section id="services" class="section-pad" aria-labelledby="services-heading">
+  <div class="container">
+
+    <div class="row justify-content-between align-items-end mb-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="section-eyebrow">What We Offer</div>
+        <h2 class="section-title" id="services-heading">
+          Tailored Transport<br><span class="gold">For Every Need</span>
+        </h2>
+        <div class="divider-gold"></div>
+        <p class="section-lead">
+          From wheelchair-accessible vehicles to long-distance medical trips,
+          we provide compassionate, punctual, and fully equipped transportation
+          for patients and seniors across the region.
+        </p>
+      </div>
+      <div class="col-lg-4 text-lg-end" data-aos="fade-left">
+        <button class="btn-primary-cmt" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Get an instant quote">
+          Get Instant Quote <span class="btn-icon">→</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Wheelchair Transport -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card" role="article">
+          <div class="service-img-wrap">
+            <img src="wheelchair_service.png" alt="Wheelchair accessible transport vehicle" loading="lazy" />
+            <div class="service-img-overlay" aria-hidden="true"></div>
+            <span class="service-badge-pill">Most Popular</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon" aria-hidden="true">♿</div>
+            <h3 class="service-title">Wheelchair Transport</h3>
+            <p class="service-desc">Fully equipped ADA-compliant vehicles with certified operators ensuring the highest level of care for wheelchair-bound passengers.</p>
+            <ul class="service-features" aria-label="Features">
+              <li>ADA-Compliant Ramps & Lifts</li>
+              <li>Certified Safety Restraints</li>
+              <li>Door-to-Door Assistance</li>
+              <li>Climate-Controlled Cabin</li>
+            </ul>
+            <button class="btn-service" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book wheelchair transport">
+              Book This Service <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Senior Transport -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card" role="article">
+          <div class="service-img-wrap">
+            <img src="senior_service.png" alt="Senior care transport assistance" loading="lazy" />
+            <div class="service-img-overlay" aria-hidden="true"></div>
+            <span class="service-badge-pill">Compassionate Care</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon" aria-hidden="true">🫀</div>
+            <h3 class="service-title">Senior Transportation</h3>
+            <p class="service-desc">Dedicated care transport for seniors to medical appointments, hospitals, dialysis centers, and assisted living facilities.</p>
+            <ul class="service-features" aria-label="Features">
+              <li>Patient Escort Assistance</li>
+              <li>Medical Appointment Reminders</li>
+              <li>Wait & Return Service</li>
+              <li>Family Communication Updates</li>
+            </ul>
+            <button class="btn-service" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book senior transport">
+              Book This Service <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Long-Distance Transport -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card" role="article">
+          <div class="service-img-wrap">
+            <img src="longdistance_service.png" alt="Long distance medical transport on highway" loading="lazy" />
+            <div class="service-img-overlay" aria-hidden="true"></div>
+            <span class="service-badge-pill">Inter-State</span>
+          </div>
+          <div class="service-body">
+            <div class="service-icon" aria-hidden="true">🗺️</div>
+            <h3 class="service-title">Long-Distance Transport</h3>
+            <p class="service-desc">Cross-county and interstate transport for specialist appointments, hospital transfers, or returning home from care facilities.</p>
+            <ul class="service-features" aria-label="Features">
+              <li>GPS-Tracked & Monitored</li>
+              <li>Multi-Stop Scheduling</li>
+              <li>Overnight Care Coordination</li>
+              <li>Insurance & Medicaid Accepted</li>
+            </ul>
+            <button class="btn-service" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book long distance transport">
+              Book This Service <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     STATS BAND
+══════════════════════════════════════════════════════════ -->
+<section id="statsBand" class="section-pad-sm" aria-label="Company statistics">
+  <div class="container">
+    <div class="row g-0 text-center">
+      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="stat-card-band">
+          <span class="num" data-count="5000" data-suffix="+" aria-label="5000 plus rides">5,000+</span>
+          <span class="lbl">Rides Completed</span>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-card-band">
+          <span class="num" data-count="98" data-suffix="%" aria-label="98 percent on-time">98%</span>
+          <span class="lbl">On-Time Record</span>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-card-band">
+          <span class="num" data-count="12" data-suffix="+" aria-label="12 plus counties served">12+</span>
+          <span class="lbl">Counties Served</span>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-card-band">
+          <span class="num" data-count="100" data-suffix="%" aria-label="100 percent satisfaction">100%</span>
+          <span class="lbl">Patient Satisfaction</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ABOUT SECTION
+══════════════════════════════════════════════════════════ -->
+<section id="about" class="section-pad" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+
+      <!-- Images -->
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="about-img-stack" role="img" aria-label="CMT Transportation professional team">
+          <img src="about_team.png" class="about-img-main" alt="CMT Transportation professional team in front of fleet vehicles" loading="lazy" />
+          <img src="wheelchair_service.png" class="about-img-accent" alt="Accessible transport vehicle" loading="lazy" />
+          <div class="about-award-badge" aria-label="Established in 2018">
+            <div class="award-year">2018</div>
+            <div class="award-text">Est.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="col-lg-7" data-aos="fade-left">
+        <div class="section-eyebrow">Our Story</div>
+        <h2 class="section-title" id="about-heading">
+          More Than Transport —<br><span class="gold">We Deliver Dignity</span>
+        </h2>
+        <div class="divider-gold"></div>
+        <p class="mb-4" style="color:var(--gray-mid);line-height:1.85;font-size:0.97rem;">
+          Founded on the principle that every patient deserves compassionate,
+          reliable care during transit, CMT Transportation LLC has grown to become
+          one of the region's most trusted NEMT providers. Our team of certified
+          drivers and care attendants treat every passenger as family.
+        </p>
+
+        <div class="value-item" data-aos="fade-up" data-aos-delay="50">
+          <div class="value-icon" aria-hidden="true">🛡️</div>
+          <div class="value-text">
+            <div class="v-title">Safety First, Always</div>
+            <div class="v-desc">All vehicles are routinely inspected, sanitized, and equipped with state-of-the-art safety systems. Drivers are CPR/First Aid certified.</div>
+          </div>
+        </div>
+
+        <div class="value-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="value-icon" aria-hidden="true">⏱️</div>
+          <div class="value-text">
+            <div class="v-title">Punctuality is Our Standard</div>
+            <div class="v-desc">We maintain a 98% on-time arrival record because missing a medical appointment is never an option for our clients.</div>
+          </div>
+        </div>
+
+        <div class="value-item" data-aos="fade-up" data-aos-delay="150">
+          <div class="value-icon" aria-hidden="true">🤝</div>
+          <div class="value-text">
+            <div class="v-title">Compassion in Every Mile</div>
+            <div class="v-desc">Our drivers undergo sensitivity training to ensure every passenger feels respected, heard, and entirely comfortable throughout their journey.</div>
+          </div>
+        </div>
+
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <button class="btn-primary-cmt" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book a ride">
+            Book a Ride <span class="btn-icon">🚐</span>
+          </button>
+          <a href="#contact" class="btn-outline-cmt" aria-label="Contact us">
+            <i class="fas fa-envelope" aria-hidden="true"></i> Contact Us
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     TESTIMONIALS SECTION
+══════════════════════════════════════════════════════════ -->
+<section id="testimonials" class="section-pad" aria-labelledby="testimonials-heading">
+  <div class="container">
+
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-eyebrow mx-auto" style="border-left:none;border-bottom:3px solid var(--gold);padding-bottom:6px;">Client Stories</div>
+      <h2 class="section-title" id="testimonials-heading">
+        What Our <span class="gold">Patients Say</span>
+      </h2>
+      <div class="divider-gold mx-auto"></div>
+    </div>
+
+    <div class="swiper" id="testimonialSwiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper pb-5">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="testimonial-card" role="article">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-text">"CMT came through for my mother when she needed dialysis transport three times a week. The driver was always early, always polite, and treated her like a queen. This service is a blessing."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">MJ</div>
+              <div>
+                <div class="author-name">Margaret Johnson</div>
+                <div class="author-role">Caregiver, Atlanta GA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="testimonial-card" role="article">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-text">"I've used several transport services before, but CMT is on a completely different level. Professional, caring, and the vehicle was spotless. They handle the entire trip like true experts."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">RD</div>
+              <div>
+                <div class="author-name">Robert Davis</div>
+                <div class="author-role">Veteran, Augusta GA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="testimonial-card" role="article">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-text">"Scheduling was effortless and they were at my door on time, every single time. My 84-year-old father uses CMT monthly for his specialist appointments and he says the driver is his 'buddy'."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">TW</div>
+              <div>
+                <div class="author-name">Tamika Williams</div>
+                <div class="author-role">Patient Family, Savannah GA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+          <div class="testimonial-card" role="article">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-text">"After my hip replacement, getting around was impossible. CMT not only got me to rehab but helped me in and out of the vehicle with genuine patience and care. Can't recommend enough."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">LP</div>
+              <div>
+                <div class="author-name">Linda Patterson</div>
+                <div class="author-role">Post-Surgery Patient</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="swiper-slide">
+          <div class="testimonial-card" role="article">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-text">"As a social worker, I've referred dozens of clients to CMT and every single one has reported back with nothing but praise. They are a vital part of our community healthcare ecosystem."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">KC</div>
+              <div>
+                <div class="author-name">Kevin Carter, MSW</div>
+                <div class="author-role">Social Worker, Columbus GA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination" role="tablist" aria-label="Testimonial navigation"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     COVERAGE SECTION
+══════════════════════════════════════════════════════════ -->
+<section id="coverage" class="section-pad" aria-labelledby="coverage-heading">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="section-eyebrow" style="color:var(--gold);">Service Area</div>
+        <h2 class="section-title" style="color:var(--white);" id="coverage-heading">
+          Where We <span style="color:var(--gold);">Serve</span>
+        </h2>
+        <div class="divider-gold"></div>
+        <p style="color:rgba(255,255,255,0.6);line-height:1.85;font-size:0.95rem;" class="mb-4">
+          CMT Transportation serves a wide and growing coverage area across Georgia and
+          surrounding states. We specialize in local, regional, and interstate transport
+          — if you're unsure whether we cover your area, just call us.
+        </p>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="tel:+18005268433" class="btn-primary-cmt" aria-label="Call to check coverage">
+            <i class="fas fa-phone-alt" aria-hidden="true"></i> Check Your Area
+          </a>
+          <button class="btn-outline-cmt" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Request a ride">
+            Request a Ride
+          </button>
+        </div>
+      </div>
+
+      <div class="col-lg-7" data-aos="fade-left">
+        <div class="coverage-map-container" role="region" aria-label="Coverage cities">
+          <div class="coverage-grid">
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="0">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Atlanta, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="40">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Savannah, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="80">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Augusta, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="120">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Columbus, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="160">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Macon, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="200">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Albany, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="240">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Athens, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="280">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Valdosta, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="320">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Warner Robins, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="360">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Gainesville, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="400">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">Roswell, GA</span>
+            </div>
+            <div class="coverage-city" data-aos="fade-up" data-aos-delay="440">
+              <div class="city-dot" aria-hidden="true"></div>
+              <span class="city-name">+ More Areas</span>
+            </div>
+          </div>
+          <p style="font-family:'Montserrat',sans-serif;font-size:0.75rem;color:rgba(255,255,255,0.35);margin-top:20px;letter-spacing:1px; text-align:center;">
+            ✦ Interstate transport available upon request
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     CONTACT SECTION
+══════════════════════════════════════════════════════════ -->
+<section id="contact" class="section-pad" aria-labelledby="contact-heading">
+  <div class="container">
+
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-eyebrow mx-auto" style="border-left:none;border-bottom:3px solid var(--gold);padding-bottom:6px;">Get In Touch</div>
+      <h2 class="section-title" id="contact-heading">
+        Ready to <span class="gold">Get Started?</span>
+      </h2>
+      <div class="divider-gold mx-auto"></div>
+    </div>
+
+    <div class="row g-4 mb-5">
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+        <div class="contact-card" role="article">
+          <div class="contact-icon" aria-hidden="true">📞</div>
+          <div class="contact-card-title">Call Us Now</div>
+          <a href="tel:+18005268433" class="contact-value">1-800-CMT-RIDE</a>
+          <div class="contact-sub">Available 24/7 for emergencies</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+        <div class="contact-card" role="article">
+          <div class="contact-icon" aria-hidden="true">📧</div>
+          <div class="contact-card-title">Email Us</div>
+          <a href="mailto:info@cmttransportation.com" class="contact-value" style="font-size:1rem;">info@cmttransport.com</a>
+          <div class="contact-sub">Response within 2 hours</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+        <div class="contact-card" role="article">
+          <div class="contact-icon" aria-hidden="true">🕐</div>
+          <div class="contact-card-title">Office Hours</div>
+          <div class="contact-value" style="font-size:1.1rem;">Mon–Fri: 6AM–9PM</div>
+          <div class="contact-sub">Sat–Sun: 7AM–7PM</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+        <div class="contact-card" role="article">
+          <div class="contact-icon" aria-hidden="true">📍</div>
+          <div class="contact-card-title">Service HQ</div>
+          <div class="contact-value" style="font-size:1rem;">Georgia, USA</div>
+          <div class="contact-sub">Serving regional & interstate</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA Banner -->
+    <div class="row" data-aos="fade-up">
+      <div class="col-12">
+        <div style="background:linear-gradient(135deg,#001530,#003070);border-radius:var(--radius-lg);padding:56px 48px;text-align:center;position:relative;overflow:hidden;border:1px solid rgba(212,175,55,0.15);">
+          <div style="position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(212,175,55,0.12) 0%,transparent 70%);" aria-hidden="true"></div>
+          <div style="position:absolute;bottom:-40px;left:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(212,175,55,0.08) 0%,transparent 70%);" aria-hidden="true"></div>
+          <div style="position:relative;">
+            <p style="font-family:'Montserrat',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">✦ Take The First Step</p>
+            <h2 style="font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:800;color:#fff;margin-bottom:16px;">Book Your Ride Today</h2>
+            <p style="color:rgba(255,255,255,0.6);max-width:500px;margin:0 auto 36px;font-size:0.95rem;line-height:1.8;">
+              Experience the CMT difference — safe, dignified, and compassionate transport at your fingertips. Schedule in minutes.
+            </p>
+            <div class="d-flex gap-3 justify-content-center flex-wrap">
+              <button class="btn-primary-cmt" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book a ride now" style="font-size:1rem;padding:18px 44px;">
+                🚐 Book a Ride Now
+              </button>
+              <a href="tel:+18005268433" class="btn-outline-cmt" aria-label="Call us directly" style="font-size:1rem;padding:18px 44px;">
+                <i class="fas fa-phone-alt" aria-hidden="true"></i> Call Directly
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo" aria-label="Footer">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- Brand Column -->
+      <div class="col-lg-4">
+        <div class="footer-logo">CMT<span>.</span></div>
+        <div class="footer-tagline">Transportation, LLC</div>
+        <p style="color:rgba(255,255,255,0.45);font-size:0.85rem;margin-top:16px;line-height:1.8;max-width:300px;">
+          Your trusted non-emergency medical transportation partner. Safe, reliable, and personable — every mile, every time.
+        </p>
+        <div class="footer-social mt-4" aria-label="Social media links">
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-btn" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-btn" aria-label="Google Reviews">
+            <i class="fab fa-google" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Services Column -->
+      <div class="col-6 col-lg-2">
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="#services" aria-label="Wheelchair transport">Wheelchair Transport</a></li>
+          <li><a href="#services" aria-label="Senior transport">Senior Transport</a></li>
+          <li><a href="#services" aria-label="Long distance transport">Long-Distance</a></li>
+          <li><a href="#services" aria-label="Medical transport">Medical Transport</a></li>
+          <li><a href="#services" aria-label="Bariatric transport">Bariatric Transport</a></li>
+        </ul>
+      </div>
+
+      <!-- Company Column -->
+      <div class="col-6 col-lg-2">
+        <div class="footer-heading">Company</div>
+        <ul class="footer-links">
+          <li><a href="#about" aria-label="About CMT">About Us</a></li>
+          <li><a href="#testimonials" aria-label="Client reviews">Reviews</a></li>
+          <li><a href="#coverage" aria-label="Coverage area">Coverage Area</a></li>
+          <li><a href="#contact" aria-label="Contact">Contact</a></li>
+          <li><a href="#" aria-label="Careers">Careers</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Column -->
+      <div class="col-lg-4">
+        <div class="footer-heading">Contact</div>
+        <div style="display:flex;flex-direction:column;gap:14px;">
+          <a href="tel:+18005268433" style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.55);font-size:0.87rem;" aria-label="Phone number">
+            <span style="color:var(--gold);">📞</span> 1-800-CMT-RIDE
+          </a>
+          <a href="mailto:info@cmttransport.com" style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.55);font-size:0.87rem;" aria-label="Email address">
+            <span style="color:var(--gold);">📧</span> info@cmttransport.com
+          </a>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.55);font-size:0.87rem;" aria-label="Location">
+            <span style="color:var(--gold);">📍</span> Serving Georgia & Surrounding States
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.55);font-size:0.87rem;" aria-label="Emergency line available 24 hours">
+            <span style="color:var(--gold);">🚨</span> Emergency Line: 24/7
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="footer-divider" />
+
+    <div class="row align-items-center">
+      <div class="col-md-6 footer-bottom">
+        &copy; 2026 CMT Transportation, LLC. All rights reserved.
+      </div>
+      <div class="col-md-6 text-md-end footer-bottom mt-2 mt-md-0">
+        <a href="#" style="color:rgba(255,255,255,0.35);" aria-label="Privacy policy">Privacy Policy</a>
+        &nbsp;&bull;&nbsp;
+        <a href="#" style="color:rgba(255,255,255,0.35);" aria-label="Terms of service">Terms of Service</a>
+        &nbsp;&bull;&nbsp;
+        <a href="#" style="color:rgba(255,255,255,0.35);" aria-label="Accessibility statement">Accessibility</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════════════════════════
+     BOOKING MODAL
+══════════════════════════════════════════════════════════ -->
+<div class="modal fade" id="bookingModal" tabindex="-1" role="dialog"
+     aria-labelledby="bookingModalTitle" aria-modal="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title" id="bookingModalTitle">✦ Book Your Ride</h2>
+          <p style="font-family:'Montserrat',sans-serif;font-size:0.75rem;color:rgba(255,255,255,0.5);margin:4px 0 0;letter-spacing:1px;">
+            CMT Transportation, LLC — Premium Medical Transport
+          </p>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close booking modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- Progress Bar -->
+        <div class="booking-progress" role="progressbar" aria-label="Booking progress">
+          <div class="progress-step active" data-step="1">
+            <span class="step-circle">1</span>
+            <span class="step-label">Trip Info</span>
+          </div>
+          <div class="progress-step" data-step="2">
+            <span class="step-circle">2</span>
+            <span class="step-label">Patient Info</span>
+          </div>
+          <div class="progress-step" data-step="3">
+            <span class="step-circle">3</span>
+            <span class="step-label">Confirm & Quote</span>
+          </div>
+        </div>
+
+        <!-- Step 1: Trip Info -->
+        <div class="form-step active" id="step1" role="region" aria-label="Step 1: Trip information">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="serviceType">Service Type *</label>
+              <select class="form-select" id="serviceType" required aria-required="true">
+                <option value="">Select service...</option>
+                <option value="wheelchair">Wheelchair Transport</option>
+                <option value="senior">Senior Transport</option>
+                <option value="longdistance">Long-Distance Transport</option>
+                <option value="medical">General Medical Transport</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="tripType">Trip Type</label>
+              <select class="form-select" id="tripType" aria-label="Trip type">
+                <option value="oneway">One Way</option>
+                <option value="roundtrip">Round Trip</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="pickupAddress">Pickup Address *</label>
+              <input type="text" class="form-control" id="pickupAddress" placeholder="123 Main St, Atlanta, GA" required aria-required="true" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="dropoffAddress">Drop-off Address *</label>
+              <input type="text" class="form-control" id="dropoffAddress" placeholder="456 Medical Center Dr, Atlanta, GA" required aria-required="true" />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label" for="rideDate">Ride Date *</label>
+              <input type="date" class="form-control" id="rideDate" required aria-required="true" />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label" for="rideTime">Pickup Time *</label>
+              <input type="time" class="form-control" id="rideTime" required aria-required="true" />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label" for="tripDistance">Est. Distance (miles)</label>
+              <input type="number" class="form-control" id="tripDistance" placeholder="e.g. 15" min="1" aria-label="Estimated distance in miles" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: Patient Info -->
+        <div class="form-step" id="step2" role="region" aria-label="Step 2: Patient information">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="patientFirst">Patient First Name *</label>
+              <input type="text" class="form-control" id="patientFirst" placeholder="John" required aria-required="true" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="patientLast">Patient Last Name *</label>
+              <input type="text" class="form-control" id="patientLast" placeholder="Doe" required aria-required="true" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="contactPhone">Contact Phone *</label>
+              <input type="tel" class="form-control" id="contactPhone" placeholder="(555) 000-0000" required aria-required="true" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="contactEmail">Contact Email</label>
+              <input type="email" class="form-control" id="contactEmail" placeholder="john.doe@email.com" aria-label="Contact email address" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="passengers">Number of Passengers</label>
+              <select class="form-select" id="passengers" aria-label="Number of passengers">
+                <option value="1">1 Passenger</option>
+                <option value="2">2 Passengers</option>
+                <option value="3">3 Passengers</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="mobility">Mobility Equipment</label>
+              <select class="form-select" id="mobility" aria-label="Mobility equipment needed">
+                <option value="none">None</option>
+                <option value="wheelchair">Wheelchair</option>
+                <option value="walker">Walker / Cane</option>
+                <option value="stretcher">Stretcher</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="specialNotes">Special Needs / Notes</label>
+              <textarea class="form-control" id="specialNotes" rows="3" placeholder="Any medical conditions, special requirements, or notes for the driver..." aria-label="Special needs or notes"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3: Confirm & Quote -->
+        <div class="form-step" id="step3" role="region" aria-label="Step 3: Confirm booking and view quote">
+          <div class="quote-result" aria-live="polite">
+            <p style="font-family:'Montserrat',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gray-mid);margin-bottom:8px;">Estimated Fare</p>
+            <div class="quote-amount" id="quoteAmount" aria-label="Quote amount">
+              <span>$</span>--
+            </div>
+            <div id="quoteBreakdown" aria-label="Fare breakdown"></div>
+          </div>
+
+          <div class="mt-4 p-3" style="background:rgba(212,175,55,0.05);border-radius:var(--radius);border:1px solid rgba(212,175,55,0.15);">
+            <div class="row g-2" style="font-size:0.82rem;font-family:'Montserrat',sans-serif;">
+              <div class="col-6">
+                <span style="color:var(--gray-mid);">Service:</span>
+                <strong style="color:var(--navy);" id="confirmService">—</strong>
+              </div>
+              <div class="col-6">
+                <span style="color:var(--gray-mid);">Trip Type:</span>
+                <strong style="color:var(--navy);" id="confirmTrip">—</strong>
+              </div>
+              <div class="col-6">
+                <span style="color:var(--gray-mid);">Pickup:</span>
+                <strong style="color:var(--navy);" id="confirmPickup">—</strong>
+              </div>
+              <div class="col-6">
+                <span style="color:var(--gray-mid);">Drop-off:</span>
+                <strong style="color:var(--navy);" id="confirmDropoff">—</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 d-flex align-items-start gap-3">
+            <input type="checkbox" class="form-check-input mt-1" id="termsCheck" aria-required="true" required />
+            <label class="form-check-label" for="termsCheck" style="font-size:0.83rem;color:var(--gray-mid);">
+              I confirm the booking details are accurate and agree to CMT Transportation's
+              <a href="#" style="color:var(--gold-dark);" aria-label="Terms of service">Terms of Service</a>
+              and <a href="#" style="color:var(--gold-dark);" aria-label="Privacy policy">Privacy Policy</a>.
+            </label>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer justify-content-between">
+        <button type="button" data-prev aria-label="Go to previous step"
+          style="background:transparent;border:1.5px solid var(--gray-light);border-radius:40px;padding:10px 24px;font-family:'Montserrat',sans-serif;font-size:0.82rem;font-weight:600;color:var(--gray-mid);cursor:pointer;transition:all 0.2s;">
+          ← Back
+        </button>
+        <div class="d-flex gap-2">
+          <button type="button" id="modalNextBtn" data-next aria-label="Go to next step"
+            style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#b8962e,#D4AF37,#e8cb5f);color:#002147;border:none;border-radius:40px;padding:12px 32px;font-family:'Montserrat',sans-serif;font-size:0.85rem;font-weight:700;letter-spacing:1px;cursor:pointer;box-shadow:0 4px 20px rgba(212,175,55,0.35);transition:all 0.3s;">
+            Next Step →
+          </button>
+          <button type="button" id="submitBooking" aria-label="Submit booking"
+            style="display:none;align-items:center;gap:8px;background:linear-gradient(135deg,#b8962e,#D4AF37);color:#002147;border:none;border-radius:40px;padding:12px 32px;font-family:'Montserrat',sans-serif;font-size:0.85rem;font-weight:700;letter-spacing:1px;cursor:pointer;box-shadow:0 4px 20px rgba(212,175,55,0.35);">
+            ✦ Confirm Booking
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     EMERGENCY FAB
+══════════════════════════════════════════════════════════ -->
+<a href="tel:+18005268433" id="emergencyFab" role="button" aria-label="Emergency call — dial 1-800-CMT-RIDE">
+  <div class="fab-ring" aria-hidden="true"></div>
+  <span class="fab-icon" aria-hidden="true">📞</span>
+  <span class="fab-label">Emergency Call</span>
+</a>
+
+<!-- Scroll to Top -->
+<button id="scrollTop" aria-label="Scroll back to top" title="Back to top">
+  <i class="fas fa-chevron-up" aria-hidden="true"></i>
+</button>
+
+<!-- ══════════════════════════════════════════════════════════
+     SCRIPTS
+══════════════════════════════════════════════════════════ -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="script.js"></script>
+
+<!-- Booking step 3 summary filler -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const nextBtn = document.getElementById('modalNextBtn');
+    if (!nextBtn) return;
+    nextBtn.addEventListener('click', () => {
+      // Populate confirm step
+      const svc = document.getElementById('serviceType');
+      const trip = document.getElementById('tripType');
+      const pickup = document.getElementById('pickupAddress');
+      const dropoff = document.getElementById('dropoffAddress');
+      const svcLabels = { wheelchair:'Wheelchair Transport', senior:'Senior Transport', longdistance:'Long-Distance', medical:'Medical Transport', '':"—" };
+      const tripLabels = { oneway:'One Way', roundtrip:'Round Trip' };
+      if (document.getElementById('confirmService')) {
+        document.getElementById('confirmService').textContent = svcLabels[svc?.value] || '—';
+        document.getElementById('confirmTrip').textContent = tripLabels[trip?.value] || '—';
+        document.getElementById('confirmPickup').textContent = pickup?.value || '—';
+        document.getElementById('confirmDropoff').textContent = dropoff?.value || '—';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
