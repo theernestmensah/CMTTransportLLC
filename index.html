@@ -15,8 +15,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
   <!-- Swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- Lucide Icons loaded in body -->
   <!-- Custom -->
   <link rel="stylesheet" href="styles.css" />
 
@@ -139,7 +138,7 @@
             <span class="btn-icon">🚐</span> Book Your Ride
           </button>
           <a href="tel:+18005268433" class="btn-outline-cmt" aria-label="Call CMT Transportation">
-            <i class="fas fa-phone-alt" aria-hidden="true"></i> Call Now
+            <i data-lucide="phone" aria-hidden="true"></i> Call Now
           </a>
         </div>
       </div>
@@ -243,7 +242,7 @@
               <li>Climate-Controlled Cabin</li>
             </ul>
             <button class="btn-service" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book wheelchair transport">
-              Book This Service <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              Book This Service <i data-lucide="arrow-right" aria-hidden="true"></i>
             </button>
           </div>
         </div>
@@ -268,7 +267,7 @@
               <li>Family Communication Updates</li>
             </ul>
             <button class="btn-service" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book senior transport">
-              Book This Service <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              Book This Service <i data-lucide="arrow-right" aria-hidden="true"></i>
             </button>
           </div>
         </div>
@@ -293,7 +292,7 @@
               <li>Insurance & Medicaid Accepted</li>
             </ul>
             <button class="btn-service" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Book long distance transport">
-              Book This Service <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              Book This Service <i data-lucide="arrow-right" aria-hidden="true"></i>
             </button>
           </div>
         </div>
@@ -399,7 +398,7 @@
             Book a Ride <span class="btn-icon">🚐</span>
           </button>
           <a href="#contact" class="btn-outline-cmt" aria-label="Contact us">
-            <i class="fas fa-envelope" aria-hidden="true"></i> Contact Us
+            <i data-lucide="mail" aria-hidden="true"></i> Contact Us
           </a>
         </div>
       </div>
@@ -532,7 +531,7 @@
         </p>
         <div class="d-flex gap-3 flex-wrap">
           <a href="tel:+18005268433" class="btn-primary-cmt" aria-label="Call to check coverage">
-            <i class="fas fa-phone-alt" aria-hidden="true"></i> Check Your Area
+            <i data-lucide="phone" aria-hidden="true"></i> Check Your Area
           </a>
           <button class="btn-outline-cmt" data-bs-toggle="modal" data-bs-target="#bookingModal" aria-label="Request a ride">
             Request a Ride
@@ -673,7 +672,7 @@
                 🚐 Book a Ride Now
               </button>
               <a href="tel:+18005268433" class="btn-outline-cmt" aria-label="Call us directly" style="font-size:1rem;padding:18px 44px;">
-                <i class="fas fa-phone-alt" aria-hidden="true"></i> Call Directly
+                <i data-lucide="phone" aria-hidden="true"></i> Call Directly
               </a>
             </div>
           </div>
@@ -700,16 +699,16 @@
         </p>
         <div class="footer-social mt-4" aria-label="Social media links">
           <a href="#" class="social-btn" aria-label="Facebook">
-            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            <i data-lucide="facebook" aria-hidden="true"></i>
           </a>
           <a href="#" class="social-btn" aria-label="Instagram">
-            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <i data-lucide="instagram" aria-hidden="true"></i>
           </a>
           <a href="#" class="social-btn" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            <i data-lucide="linkedin" aria-hidden="true"></i>
           </a>
           <a href="#" class="social-btn" aria-label="Google Reviews">
-            <i class="fab fa-google" aria-hidden="true"></i>
+            <i data-lucide="globe" aria-hidden="true"></i>
           </a>
         </div>
       </div>
@@ -974,7 +973,7 @@
 
 <!-- Scroll to Top -->
 <button id="scrollTop" aria-label="Scroll back to top" title="Back to top">
-  <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  <i data-lucide="chevron-up" aria-hidden="true"></i>
 </button>
 
 <!-- ══════════════════════════════════════════════════════════
@@ -984,7 +983,9 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
 <script src="script.js"></script>
+<script>lucide.createIcons();</script>
 
 <!-- Booking step 3 summary filler -->
 <script>

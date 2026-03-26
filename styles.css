@@ -51,6 +51,23 @@ a:hover { color: var(--gold-dark); }
 
 img { max-width: 100%; display: block; }
 
+/* ── Lucide Icons ───────────────────────────────────────────── */
+[data-lucide], i svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.btn-service [data-lucide] { width: 0.9em; height: 0.9em; }
+.social-btn [data-lucide]  { width: 1.1rem; height: 1.1rem; }
+#scrollTop [data-lucide]   { width: 1.2rem; height: 1.2rem; }
+
 ::selection { background: var(--gold); color: var(--navy); }
 
 /* ── Custom Scrollbar ───────────────────────────────────────── */
